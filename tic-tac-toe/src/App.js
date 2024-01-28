@@ -54,7 +54,7 @@ function Board({ xIsNext, squares, onPlay }) {
 }
 
 export default function Game() {
-  // Task 5 from suggestions in tutorial: changing `history` state variabe to include move coordinates
+  // Task 5 from suggestions in tutorial: changing `history` state variable to include move coordinates
   const [history, setHistory] = useState([
     { squares: Array(9).fill(null), moveCoords: [null, null] },
   ]);
